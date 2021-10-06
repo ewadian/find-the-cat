@@ -1,0 +1,70 @@
+body {
+    background-color: #332746;
+    font-family: 'karla', sans-serif;
+}
+
+h1 {
+    color: #332746;
+    text-align: center;
+    font-family: 'righteous', sans-serif;
+    font-size:  4rem;
+    margin: 15px;
+}
+
+h2 {
+    margin-top: 0px;
+    color:#332746;
+    text-align: center;
+}
+
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px;
+    width: max-content;
+    background-color: #b77cfe;
+    display:grid;
+    grid-column:1;
+    border-radius: 100px;
+
+}
+
+input {
+    border: 0px;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #fefefe;
+    margin-top: 20px;
+}
+
+button {
+    font-family: 'righteous', sans-serif;
+    margin: 20px;
+    border: 0px;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: #332746;
+    color: #fefefe;
+    font-size: 1.5rem;
+}
+
+#results-message {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+#remaining-guesses {
+
+    color:#332746;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.hidden {
+    display:none;
+}

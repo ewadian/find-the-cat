@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&family=Righteous&display=swap" rel="stylesheet">
+    <title>Find The Kitty</title>
+</head>
+
+<body>
+    <section id="container">
+        <center>
+            <h1>Find The Cat</h1>
+            <h2>Pick a number between 1 and 20 to find the friendly kitty in the pumpkin!<br>
+            Don't get stabbed!</h2>
+            <p id="closed-image" class=""><img src="./assets/closed.jpg" height="300px"></p>
+            <p id="gotcha-image" class="hidden"><img src="./assets/Gotcha.jpg" height="300px"></p>
+            <p id="nope-image" class="hidden"><img src="./assets/Nope.jpg" height="300px"> </p>
+            <p id="nope-image-2" class="hidden"><img src="./assets/Nope2.jpg" height="300px"></p>
+            <p id="results-message"></p>
+            <span id="remaining-guesses">4 HP remaining.</span><br>
+            <input type="number" id="guess-input"><br>
+            <button id="guess-button">Guess</button>
+            <button id="try-again" class="hidden">Try Again</button>
+        </center>
+    </section>
+
+    <script type="module" src="./app.js"></script>
+</body>
+
+</html>
